@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/category_layout_margin"
+            android:text="Author:"
+            android:textSize="@dimen/category_text_size"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/review_author_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/category_layout_margin"
+            android:textSize="@dimen/category_text_size"
+            tools:text="Name" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/review_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/category_layout_margin"
+        android:gravity="fill_vertical"
+        android:lines="5"
+        android:maxLines="5"
+        android:textSize="@dimen/category_content_text_size"
+        tools:text="review content" />
+
+</LinearLayout>

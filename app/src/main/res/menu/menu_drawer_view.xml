@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sort_by_most_popular"
+            android:title="@string/sort_by_most_popular" />
+        <item
+            android:id="@+id/sort_by_top_rated"
+            android:title="@string/sort_by_top_rated" />
+        <item
+            android:id="@+id/sort_by_favorite_movie"
+            android:title="@string/sort_by_favorite_movie" />
+    </group>
+
+</menu>
